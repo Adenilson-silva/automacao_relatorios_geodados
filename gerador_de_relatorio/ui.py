@@ -183,6 +183,3 @@ def criar_interface(janela):
     
     botao_cancelar = Button(aba2, text="Cancelar", font=fonte_padrao, width=20, command=janela.destroy)
     botao_cancelar.grid(column=2, row=17, pady=(5, 10), sticky="ew")
-
-   
-
