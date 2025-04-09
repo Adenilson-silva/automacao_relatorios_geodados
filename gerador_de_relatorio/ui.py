@@ -35,9 +35,6 @@ def criar_interface(janela):
             entrada_pasta.insert(0, caminho)  # insere o caminho do arquivo
             verificar_campos()
 
-    # Função executada após clique no botão Gerar relatório
-
-
     def mostrar_modal_processo():
         modal = Toplevel()
         modal.title("Processando")
@@ -84,7 +81,7 @@ def criar_interface(janela):
             modal.destroy()
             mostrar_modal_sucesso() 
             
-
+    # Função executada após clique no botão Gerar relatório
     def ao_clicar_gerar():
         caminho_shp = entrada_shp.get()
         pasta_saida = entrada_pasta.get()
@@ -118,8 +115,6 @@ def criar_interface(janela):
     abas = ttk.Notebook(janela)
     aba1 = Frame(abas)
     aba2 = Frame(abas)
-    aba3 = Frame(abas)
-    aba4 = Frame(abas)
     abas.add(aba1, text="Relatório")
     abas.add(aba2, text="Configuração BigQuery")
     abas.pack(expand=1, fill="both")
@@ -188,13 +183,6 @@ def criar_interface(janela):
     
     botao_cancelar = Button(aba2, text="Cancelar", font=fonte_padrao, width=20, command=janela.destroy)
     botao_cancelar.grid(column=2, row=17, pady=(5, 10), sticky="ew")
-
-
-    # ---------------------------------------------- Aba 3 ----------------------------------------------
-    info = Label(aba3, text="Este é um relatório automático.\nSelecione os parâmetros desejados e clique em Gerar.", 
-                font=("Arial", 8), justify="left", wraplength=500, relief="groove", bd=2, padx=10, pady=10)
-    info.grid(column=0, row=2, columnspan=4, padx=20, pady=10, sticky="w")
-
 
    
 
