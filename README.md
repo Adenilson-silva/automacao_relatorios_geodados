@@ -27,7 +27,7 @@ Segue a tabela criada no _Google BigQuery_ após o processo de ETL:
 
 
 ##### - Gerador de Relatório Automático 
-Na segundo etapa do projeto, foi elaborado um sistema para geração de relatório automáticos. 
+Na segundo etapa do projeto, foi elaborado um sistema para geração de relatório automáticos. De modo geral, o sistema consiste em sobrepor os dados armazenados no Google BigQuery com os dados obtidos de um no shapefile fornecido pelo usuario.
 
 Carregar um novo shapefile e convertê-lo em um formato adequado.
 
