@@ -35,6 +35,14 @@ Consultar o BigQuery usando SQL espacial (por exemplo, ST_INTERSECTS).
 
 Gerar um relatório (CSV, Excel ou visualização gráfica).
 
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=17oddV7w475KfTUOxVoVim8P8EgkYgVAM" width="800">
+</div>
+
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1pKBA5MpmplMhUyBNqPHlH7jZqGtzmfag" width="800">
+</div>
+
 <a href='https://drive.google.com/file/d/1l3lMte5s016fkJo4zcp8y2kRwXvYszbe/view?usp=sharing' target="_blank">Aqui</a>
 
 ## Tecnologias utilizadas
