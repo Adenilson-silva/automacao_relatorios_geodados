@@ -13,7 +13,7 @@ Os conjuntos de arquivos _shafiles_ aqui utilizados foram obtidos em: <a href='h
 Este projeto é constituído de duas etapas:
 
 ##### - ETL dos _Shapefiles_ para o Google BigQuery
-Nesta etapa do projeto, foi realizada a leitura de uma pasta contendo diversos conjuntos de arquivos <a href='https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/what-is-a-shapefile.htm' target="_blank">_shapefile_</a>. A pasta apresentava uma organização hierárquica, que foi preservada no processo de ingestão dos dados no <a href='https://cloud.google.com/bigquery/docs/introduction?hl=pt-br' target="_blank">_Google BigQuery_</a>, a fim de preservar a categorização temática dos _shapefiles_. A seguir, apresenta-se uma breve descrição de cada etapa do processo de ETL:
+Nesta etapa do projeto, foi realizada a leitura de uma pasta contendo diversos conjuntos de arquivos <a href='https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/what-is-a-shapefile.htm' target="_blank">_shapefile_</a>. A pasta apresentava uma organização hierárquica, que foi preservada no processo de ingestão dos dados no <a href='https://cloud.google.com/bigquery/docs/introduction?hl=pt-br' target="_blank">_Google BigQuery_</a>, a fim manter a categorização temática dos _shapefiles_. A seguir, apresenta-se uma breve descrição de cada etapa do processo de ETL:
 
 - _Extract_: Leitura dos arquivos _shapefile_.
 - _Transform_: Organização dos dados, adequando-os para o carregamento.
