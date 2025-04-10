@@ -7,6 +7,9 @@
 ## Sobre este Projeto 
 Os conjuntos de arquivos _shafiles_ utilizados neste projeto foram obtidos em: <a href='https://www.ide.df.gov.br/geoportal/'>GeoPortal-DF</a>
 
+## Contextualização
+Este
+
 ## Tecnologias utilizadas
 - Python
 - VSCode
