@@ -5,7 +5,7 @@
 </div>
 
 ## Sobre este Projeto 
-Os dados utilizados neste projeto são oficiais; no entanto, o cenário descrito na contextualização é fictício.
+Os conjuntos de arquivos _shafiles_ utilizados neste projeto foram obtidos em: <a href='https://www.ide.df.gov.br/geoportal/'>GeoPortal-DF</a>
 
 ## Tecnologias utilizadas
 - Python
