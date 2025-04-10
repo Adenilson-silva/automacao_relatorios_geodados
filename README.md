@@ -19,7 +19,7 @@ Nesta etapa do projeto, foi realizada a leitura de uma pasta contendo diversos c
 
 Segue a tabela criada no _Google BigQuery_ após o processo de ETL:
 <div align="center">
-  <img src="https://drive.google.com/uc?export=view&id=13SNtO5hh8YAuIGXHwtXkaGe5e1ZHFKxl" width="1200">
+  <img src="https://drive.google.com/uc?export=view&id=13SNtO5hh8YAuIGXHwtXkaGe5e1ZHFKxl" width="800">
 </div>
 
 
