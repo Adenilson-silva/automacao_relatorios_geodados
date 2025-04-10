@@ -16,8 +16,20 @@ Nesta etapa do projeto, foi realizada a leitura de uma pasta contendo diversos c
 - _Extract_: Leitura dos arquivos _shapefile_.
 - _Transform_: Organização dos dados, adequando-os para o carregamento.
 - _Load_: Inserção dos dados no _Google BigQuery_, com a criação de uma única tabela.
-  
+
+Segue a tabela criada no _Google BigQuery_ após o processo de ETL:
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=13SNtO5hh8YAuIGXHwtXkaGe5e1ZHFKxl" width="1200">
+</div>
+
+
 ##### - Gerador de Relatório Automático 
+Na segundo etapa do projeto, foi elaborado um sistema para geração de relatório automáticos. 
+Carregar um novo shapefile e convertê-lo em um formato adequado.
+
+Consultar o BigQuery usando SQL espacial (por exemplo, ST_INTERSECTS).
+
+Gerar um relatório (CSV, Excel ou visualização gráfica).
 
 ## Tecnologias utilizadas
 - Python
