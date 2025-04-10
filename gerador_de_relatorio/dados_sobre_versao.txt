@@ -1,0 +1,9 @@
+# Requisitos do projeto
+# Desenvolvido com Python 3.10.1
+
+geopandas==1.0.1
+pandas==2.2.3
+folium==0.19.5
+google-cloud-bigquery==3.31.0
+google-auth
+google-api-core
