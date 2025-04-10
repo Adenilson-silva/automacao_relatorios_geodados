@@ -1,5 +1,5 @@
 # ETL, Processamento Geoespacial, _Cloud Computing_ e Automação de Relatórios
-## Automatização de Relatórios com Dados GIS Vetoriais no Google BigQuery
+## Automatização de Relatórios com Dados GIS Vetoriais armazenados no Google BigQuery
 
 
 <div align="center">
