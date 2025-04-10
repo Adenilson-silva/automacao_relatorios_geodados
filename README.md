@@ -29,6 +29,30 @@ Segue a tabela criada no _Google BigQuery_ após o processo de ETL:
 #### 2 - Gerador de Relatório Automático 
 Na segunda etapa do projeto, foi desenvolvido um sistema para geração automática de relatórios. Em suma, o sistema realiza a sobreposição dos dados geoespaciais armazenados no _Google BigQuery_ com as informações contidas em um _shapefile_ fornecido pelo usuário. A partir desse processo, é gerado um relatório (em formato HTML) que identifica as interferências existentes nas áreas delimitadas pelo _shapefile_.
 
+* **Informações do Sistema:**
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1cGcoa5cPPJCMp-JquWTNpIGVPjrw0V_Z" width="800">
+</div>
+
+1 - Campo para selecionar o arquivo _shapefile_ (.shp) que será utilizado como base para a geração do relatório automático.
+
+2 - Campo para selecionar onde será salvo o relatório em formato HTML (.html).
+
+3 - Botão para gerar o relatório.
+
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1SB8QKZO28uz2LlqFkskuW3DERuIK6NFo" width="800">
+</div>
+
+4 - Campo para selecionar o arquivo _json_ que contêm as credenciais de acesso do _Google BigQuery_.
+
+5 - Campo para informar o nome do projeto no _Google BigQuery_.
+
+6 - Campo para informar o nome do dataset no _Google BigQuery_.
+
+3 - Campo para informar o nome do tabela no _Google BigQuery_.
+
+
 * **Sistema em operação:**
 <div align="center">
   <img src="https://drive.google.com/uc?export=view&id=17oddV7w475KfTUOxVoVim8P8EgkYgVAM" width="800">
