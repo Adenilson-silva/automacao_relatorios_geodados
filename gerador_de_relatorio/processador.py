@@ -168,7 +168,6 @@ def gerar_relatorio(caminho_shp, pasta_saida, caminho_chave, projeto_id, dataset
                     gdf_big_query = gdf_big_query.set_crs("EPSG:4326")
 
                 sobreposicoes = gdf1.geometry.apply(lambda geom: gdf_big_query.intersects(geom).any())
-                #intersecoes = gpd.overlay(gdf1, gdf_big_query, how='intersection', keep_geom_type=False)
                 intersecoes = gdf_big_query[gdf_big_query.geometry.apply(lambda geom: gdf1.intersects(geom).any())]
                 alguma_sobreposicao = sobreposicoes.any()
                 intersecoes_sem_geom = intersecoes.drop(columns='geometry', errors='ignore').drop_duplicates()
