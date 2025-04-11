@@ -1,6 +1,5 @@
 from tkinter import * 
 from ui import criar_interface
-#from processador import gerar_relatorio
 
 def main():
     # Cria a interface do usuário
